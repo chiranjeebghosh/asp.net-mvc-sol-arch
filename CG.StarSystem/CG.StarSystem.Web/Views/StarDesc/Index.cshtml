@@ -1,0 +1,63 @@
+﻿@using CG.StarSystem.Data.Models;
+@model IEnumerable<StarDesc>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{ 
+    ViewBag.Title = "Star System";
+        }
+<h2>Star List</h2>
+<table border="1">
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            Star Name
+        </th>
+        <th>
+            Star Size
+        </th>
+        <th>
+            Star Distance From Sun
+        </th>
+        <th>
+            Star Galaxy Name
+        </th>
+        <th>
+            Star Brightness
+        </th>
+        <th>
+            Spectral Type
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StarName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StarSize)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StarDistanceFromSun)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StarGalaxyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StarBrightness)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpectralType)
+            </td>
+        </tr>
+
+
+    }
+</table>
