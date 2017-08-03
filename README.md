@@ -24,8 +24,9 @@ CG.StarSystem
  
  Highligts
  ----------
+ :-
  1.The connection string is mentioned in the Web.Cofig file of 'CG.StarSystem.Web'
- 2.The 'CG.StarSystem.Web' doesn't have any direct connection with the Repository or the database. It only depends on Application Services    and Entity.
+ 2.The 'CG.StarSystem.Web' doesn't have any direct connection with the Repository or the database. It only depends on Application          Services and Entity.
  3.All operations are Async from Controller --> ApplicationServices --> Repository --> Entity Framework
  4.Dependency Injection in ASP.NET MVC using Unity IoC Container. The Repository layer has been deliberately left out for flexibity of        replacing.
  5.Entity Models are resued across layers.
