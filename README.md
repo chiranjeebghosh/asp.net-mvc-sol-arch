@@ -57,6 +57,7 @@ The entire solution is divided into following project structure:-
                         [Id]                  INT            IDENTITY (1, 1) NOT NULL,
                         CONSTRAINT [PK_StarDesc] PRIMARY KEY CLUSTERED ([Id] ASC)
                     );
+5. Please check the video in point 2 below if the code looks over whelming. The entire project can be made in less than an hour by using visual studios extensions and tools. Also community edition has 'Resharper' in built.
 
 Bibliography
 ------------
