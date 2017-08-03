@@ -164,10 +164,6 @@
       <Project>{dee45e4b-713e-4f12-afab-2dce13cc1c7c}</Project>
       <Name>CG.StarSystem.Entity</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CG.StarSystem.Repository\CG.StarSystem.Repository.csproj">
-      <Project>{e8ad42b8-4341-4be8-b825-980837e2f3da}</Project>
-      <Name>CG.StarSystem.Repository</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
