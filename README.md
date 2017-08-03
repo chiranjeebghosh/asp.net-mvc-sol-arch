@@ -33,7 +33,8 @@ CG.StarSystem
  Solution Structure
  ------------------
  UI(View) --> Controller --> ApplicationServices --> Repository --> Entity Framework --> Database(SQL Server)
- Model(Enity) Reused Across Layer
+ 
+ Model(Enity) Reused Across Layer from UI to Repository
 
  
 
