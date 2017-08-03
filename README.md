@@ -34,6 +34,7 @@ CG.StarSystem
  ------------------
  
  UI(View) --> Controller --> ApplicationServices --> Repository --> Entity Framework --> Database(SQL Server)
+ 
  |------------------------------Model(Enity)-----------------------------------------|
                               Reused Across Layer
  ===================================================================================
