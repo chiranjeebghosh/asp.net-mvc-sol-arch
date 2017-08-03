@@ -28,11 +28,14 @@ CG.StarSystem
  2.The 'CG.StarSystem.Web' doesn't have any direct connection with the Repository or the database. It only depends on Application Services    and Entity.
  3.All operations are Async from Controller --> ApplicationServices --> Repository --> Entity Framework
  4.Dependency Injection in ASP.NET MVC using Unity IoC Container. The Repository layer has been deliberately left out for flexibity of        replacing.
+ 5.Entity Models are resued across layers.
  
  Solution Structure
  ------------------
  
  UI(View) --> Controller --> ApplicationServices --> Repository --> Entity Framework --> Database(SQL Server)
- |                |                |                     |                |                      |
- |________________|________________|______Model(Entity)__|________________|
+ ===================================================================================
+                              Reused Across Layer
+ =================================Model(Enity)======================================
+
  
