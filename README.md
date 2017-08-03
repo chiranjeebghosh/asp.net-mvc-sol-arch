@@ -41,12 +41,23 @@ The entire solution is divided into following project structure:-
  2. <---------------------------Model(Enity) -------------------->
  3. Model Reused Across Layer from UI to Repository. However one cane create other Business Models 
  
- Developers Work Note
- ----
+ Developers Work Notes
+ ---------------------
  1. Project made in Visual Studios Community Edition 2015. 
  2. The 'Entity Framework Power Tools Beta 4 Extension's file named 'extension.vsixmanifest' had to be modified. It was used for 'Reverese Engineer Code First' for generating POCO classes.
  3. Almost ended up by using 'Grifin DAL Repo Generator' but deleted the codes as it uses ADO.Net transactions and not entity framework.
- 
+ 4. Used only 1 Database Table in SQL Server Express
+                     CREATE TABLE [dbo].[StarDesc] (
+                        [StarName]            NVARCHAR (150) NULL,
+                        [StarSize]            NVARCHAR (50)  NULL,
+                        [StarDistanceFromSun] NVARCHAR (50)  NULL,
+                        [StarGalaxyName]      NVARCHAR (50)  NULL,
+                        [StarBrightness]      NVARCHAR (50)  NULL,
+                        [SpectralType]        NVARCHAR (50)  NULL,
+                        [Id]                  INT            IDENTITY (1, 1) NOT NULL,
+                        CONSTRAINT [PK_StarDesc] PRIMARY KEY CLUSTERED ([Id] ASC)
+                    );
+
 Bibliography
 ------------
 1. https://stackoverflow.com/questions/37724049/using-repository-patern-when-using-async-await-methods-asp-net-mvc5-ef
