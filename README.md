@@ -5,7 +5,7 @@ It uses the following:-
 2. .Net Framework 4.5.2
 3. Unity.MVC (Nuget package)
 4. Entity Framework 6.0 (Nuget package)
-5. Repository Pattern with Async operation
+5. Repository Pattern with Async Operations
 6. SQL Server Express 
 7. Entity Framework Power Tools Beta 4 (Visual Studios Extension)
 
