@@ -19,17 +19,38 @@ namespace CG.StarSystem.ApplicationServices
            
         }
 
-        public async Task<StarDesc> GetStarDescriptionById(int? id)
+        public async Task<List<StarDesc>> GetAllStarsAsync()
+        {
+
+            return await _StarDescRepository.GetStarDescsAsync();
+        }
+
+        public async Task<StarDesc> GetStarDescriptionByIdAsync(int? id)
         {
            
             return await _StarDescRepository.GetStarDescByIdAsync(id);
         }
 
-        public async Task<List<StarDesc>> GetAllStars()
+        public async Task AddStarAsync(StarDesc stardesc)
         {
 
-            return  await _StarDescRepository.GetStarDescsAsync();
+            await _StarDescRepository.CreateStarAsync(stardesc);
         }
+
+        public async Task DeleteStarAsync(int? id)
+        {
+
+            await _StarDescRepository.DeleteStarAsync(id);
+        }
+
+        public async Task EditStarDescAsync(StarDesc stardesc)
+        {
+
+             await _StarDescRepository.EditStarDescAsync(stardesc);
+        }
+
+       
+
 
         #region IDisposable Support
         private bool disposedValue = false; // To detect redundant calls

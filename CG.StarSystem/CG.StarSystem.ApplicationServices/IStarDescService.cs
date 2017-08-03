@@ -7,9 +7,11 @@ namespace CG.StarSystem.ApplicationServices
 {
     public interface IStarDescService : IDisposable
     {
-          Task<StarDesc> GetStarDescriptionById(int? id);
-         Task<List<StarDesc>> GetAllStars();
-
+        Task<List<StarDesc>> GetAllStarsAsync();
+        Task<StarDesc> GetStarDescriptionByIdAsync(int? id);
+        Task AddStarAsync(StarDesc stardesc);
+        Task DeleteStarAsync(int? id);
+        Task EditStarDescAsync(StarDesc stardesc);
 
     }
 }

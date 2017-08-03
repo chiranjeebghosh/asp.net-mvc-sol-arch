@@ -22,6 +22,9 @@ namespace CG.StarSystem.Repository.StarDescs
     {
         Task<List<StarDesc>> GetStarDescsAsync();
         Task<StarDesc> GetStarDescByIdAsync(int? id);
+        Task CreateStarAsync(StarDesc stardesc);
+        Task DeleteStarAsync(int? id);
+        Task EditStarDescAsync(StarDesc stardesc);
 
 
 

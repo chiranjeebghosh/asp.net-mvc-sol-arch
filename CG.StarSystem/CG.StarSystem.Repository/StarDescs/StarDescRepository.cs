@@ -33,6 +33,28 @@ namespace CG.StarSystem.Repository.StarDescs
             return await _context.StarDescs.FindAsync(id);
         }
 
+        public  async Task CreateStarAsync(StarDesc stardesc)
+        {
+             _context.StarDescs.Add(stardesc);
+            await _context.SaveChangesAsync(); 
+        }
+
+        public async Task EditStarDescAsync(StarDesc stardesc)
+        {
+            _context.Entry(stardesc).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteStarAsync(int? id)
+        {
+            StarDesc stardesc = await _context.StarDescs.FindAsync(id);
+            _context.StarDescs.Remove(stardesc);
+            await _context.SaveChangesAsync();
+        }
+           
+        
+       
+
         #region IDisposable Support
         private bool disposedValue = false; // To detect redundant calls
 
