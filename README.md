@@ -46,17 +46,8 @@ The entire solution is divided into following project structure:-
  1. Project made in Visual Studios Community Edition 2015. 
  2. The 'Entity Framework Power Tools Beta 4 Extension's file named 'extension.vsixmanifest' had to be modified. It was used for 'Reverese Engineer Code First' for generating POCO classes.
  3. Almost ended up by using 'Grifin DAL Repo Generator' but deleted the codes as it uses ADO.Net transactions and not entity framework.
- 4. Used only 1 Database Table in SQL Server Express
-                     CREATE TABLE [dbo].[StarDesc] (
-                        [StarName]            NVARCHAR (150) NULL,
-                        [StarSize]            NVARCHAR (50)  NULL,
-                        [StarDistanceFromSun] NVARCHAR (50)  NULL,
-                        [StarGalaxyName]      NVARCHAR (50)  NULL,
-                        [StarBrightness]      NVARCHAR (50)  NULL,
-                        [SpectralType]        NVARCHAR (50)  NULL,
-                        [Id]                  INT            IDENTITY (1, 1) NOT NULL,
-                        CONSTRAINT [PK_StarDesc] PRIMARY KEY CLUSTERED ([Id] ASC)
-                    );
+ 4. Used only 1 Database Table in SQL Server Express called 'StarDesc'. Script file path is 'asp.net-mvc-sol-arch\CG.StarSystem\CG.StarSystem.Data\StarDesc.sql'
+                     
 5. Please check the video in point 2 below if the code looks over whelming. The entire project can be made in less than an hour by using visual studios extensions and tools. Also community edition has 'Resharper' in built.
 
 Bibliography
