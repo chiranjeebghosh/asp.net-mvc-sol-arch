@@ -1,5 +1,5 @@
 # asp.net-mvc-sol-arch
-Asp.Net MVC Solution Architecture project presents a flexible layered architecture approach inspired from some of the best solutions strcuture available.
+Asp.Net MVC Solution Architecture project presents a flexible layered architecture is inspired from some of the best solutions structure's available incoporating the best practices.
 It uses the following:-
 1. ASP.Net MVC 5.2.3.0
 2. .Net Framework 4.5.2
