@@ -1,4 +1,5 @@
-C:\Users\chiranjeeb\Documents\Visual Studio 2015\Projects\CG.StarSystem\CG.StarSystem.Entity\bin\Debug\CG.StarSystem.Entity.dll
-C:\Users\chiranjeeb\Documents\Visual Studio 2015\Projects\CG.StarSystem\CG.StarSystem.Entity\bin\Debug\CG.StarSystem.Entity.pdb
-C:\Users\chiranjeeb\Documents\Visual Studio 2015\Projects\CG.StarSystem\CG.StarSystem.Entity\obj\Debug\CG.StarSystem.Entity.dll
-C:\Users\chiranjeeb\Documents\Visual Studio 2015\Projects\CG.StarSystem\CG.StarSystem.Entity\obj\Debug\CG.StarSystem.Entity.pdb
+C:\Users\chiranjeeb\Documents\GitHub\asp.net-mvc-sol-arch\CG.StarSystem\CG.StarSystem.Entity\bin\Debug\CG.StarSystem.Entity.dll
+C:\Users\chiranjeeb\Documents\GitHub\asp.net-mvc-sol-arch\CG.StarSystem\CG.StarSystem.Entity\bin\Debug\CG.StarSystem.Entity.pdb
+C:\Users\chiranjeeb\Documents\GitHub\asp.net-mvc-sol-arch\CG.StarSystem\CG.StarSystem.Entity\obj\Debug\CG.StarSystem.Entity.csprojResolveAssemblyReference.cache
+C:\Users\chiranjeeb\Documents\GitHub\asp.net-mvc-sol-arch\CG.StarSystem\CG.StarSystem.Entity\obj\Debug\CG.StarSystem.Entity.dll
+C:\Users\chiranjeeb\Documents\GitHub\asp.net-mvc-sol-arch\CG.StarSystem\CG.StarSystem.Entity\obj\Debug\CG.StarSystem.Entity.pdb

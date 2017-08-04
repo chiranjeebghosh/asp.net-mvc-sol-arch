@@ -13,6 +13,9 @@ namespace CG.StarSystem.Data.Models
         public StarSystemContext()
             : base("Name=StarSystemContext")
         {
+            // the terrible hack
+            var ensureDLLIsCopied =
+                    System.Data.Entity.SqlServer.SqlProviderServices.Instance;
         }
 
         public DbSet<SpectralClassesSubType> SpectralClassesSubTypes { get; set; }
